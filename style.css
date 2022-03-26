@@ -1,0 +1,55 @@
+* {
+    background-color: #161c22;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    clear: both;
+    padding: 3px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.foot {
+    padding: 20px;
+}
+
+.ul-foot {
+    list-style: none;
+    padding: 0;
+    font-size:18px;
+    line-height:1.6;
+    background-color:#000000;
+
+}
+
+.li-foot {
+    background-color:#000000;
+    padding:0 10px;
+    display: inline;
+}
+
+.p-foot {
+    background-color:#000000;
+}
+
+.foot ul a {
+    text-decoration:none;
+    background-color:#000000;
+
+}
