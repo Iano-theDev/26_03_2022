@@ -13,23 +13,29 @@ body {
 
 .nav {
     overflow: hidden;
-    background-color: #e2e2e2;
+    background-color: #00ff5ecb;
 }
 
 .nav ul a {
     text-decoration:none;
-    color: #2e2e2e;
+    color: #ffffffc4;
 }
 
 .ul-nav {
     font-size:18px;
     float: right;
-    width: 65%;
+    width: 100%;
 }
 
 .li-nav {
     padding: 10px;
     display: inline;
+}
+
+.li-nav :hover{
+    color: #ffffff;
+    font-weight: bold;
+
 }
 
 h1 {
@@ -39,8 +45,8 @@ h1 {
 h3 {
     font-family: 'Brush Script MT', cursive;
     font-size: 50px;
-    color:rgb(0, 0, 0);
-    -webkit-text-stroke: 0.5px #ffffff;
+    color:rgba(0, 247, 255, 0.693);
+    -webkit-text-stroke: 0.1px #00ff5e;
 }
 
 footer {
@@ -48,7 +54,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.768);
+    height: 150px;
 }
 
 .foot {
@@ -60,22 +67,20 @@ footer {
     padding: 0;
     font-size:18px;
     line-height:1.6;
-    background-color:#000000;
-
 }
 
 .li-foot {
-    background-color:#000000;
     padding:0 10px;
     display: inline;
 }
 
-.p-foot {
-    background-color:#000000;
-}
 
 .foot ul a {
     text-decoration:none;
-    background-color:#000000;
+
+}
+
+.li-foot :hover{
+    color: #00ff5e;
 
 }
