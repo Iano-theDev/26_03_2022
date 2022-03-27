@@ -7,7 +7,7 @@
 }
 .container {
     min-height:100%;
-    position:relative;
+    position: relative;
  }
 
 body {
@@ -55,9 +55,7 @@ h1 {
 }
 
 .foot {
-    position: relative;
-    left: 0;
-    bottom: 0;
+    position: absolute;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.768);
 }
