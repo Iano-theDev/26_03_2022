@@ -16,10 +16,9 @@ function myFunction() {
     }
   }
 
-  function alert() {
-    document.getElementById("submitMe");
-  }
-
-  button.onclick = function(alert){
-    alert ("thank You!");
+  function show_alert() {
+    if(!confirm("Thank You!!!")) {
+      return false;
+    }
+    this.form.submit();
   }
