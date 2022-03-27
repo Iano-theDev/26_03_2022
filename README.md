@@ -1,3 +1,3 @@
 Assignment website following already layed out spesificatioins.
---Edge global.
+--Mint global.
 --International Photography company.
