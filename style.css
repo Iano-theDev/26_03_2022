@@ -1,11 +1,35 @@
 * {
-    background-color: #161c22;
     color: rgb(255, 255, 255);
     font-family: 'Trebuchet MS', sans-serif;
-    text-align: center;
     box-sizing: border-box;
     clear: both;
     padding: 3px;
+}
+
+body {
+    background-color: #161c22;
+    text-align: center;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #e2e2e2;
+}
+
+.nav ul a {
+    text-decoration:none;
+    color: #2e2e2e;
+}
+
+.ul-nav {
+    font-size:18px;
+    float: right;
+    width: 65%;
+}
+
+.li-nav {
+    padding: 10px;
+    display: inline;
 }
 
 h1 {
@@ -14,7 +38,9 @@ h1 {
 
 h3 {
     font-family: 'Brush Script MT', cursive;
-    font-size: 30px;
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    -webkit-text-stroke: 0.5px #ffffff;
 }
 
 footer {
