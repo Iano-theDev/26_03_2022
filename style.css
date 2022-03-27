@@ -1,14 +1,19 @@
 * {
     color: rgb(255, 255, 255);
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     box-sizing: border-box;
     clear: both;
     padding: 3px;
 }
+.container {
+    min-height:100%;
+    position:relative;
+ }
 
 body {
     background-color: #161c22;
     text-align: center;
+    height:100%;
 }
 
 .nav {
@@ -42,20 +47,19 @@ h1 {
     text-transform: uppercase;
 }
 
-h3 {
+.mid p {
     font-family: 'Brush Script MT', cursive;
     font-size: 50px;
     color:rgba(0, 253, 93, 0.994);
     -webkit-text-stroke: 0.1px #00ff5e;
 }
 
-footer {
-    position: fixed;
+.foot {
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.768);
-    height: 150px;
 }
 
 .foot {
