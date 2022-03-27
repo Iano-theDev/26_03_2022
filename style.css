@@ -147,3 +147,8 @@ footer {
 tr, td {
     padding: 10px;
 }
+
+.box {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
