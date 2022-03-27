@@ -60,7 +60,7 @@ h2 {
     margin-bottom: 40px;
 }
 
-.foot {
+footer {
     position: absolute;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.849);
@@ -91,3 +91,51 @@ h2 {
     color: #00ff5e;
 
 }
+/* about us */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .drop {
+    
+    background-color: #0dff00d0;
+    color: rgba(255, 255, 255, 0.837);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    float: left;
+  }
+  .ul-drop {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .ul-drop a {
+    display: block;
+  }
+
+  .show {display:block;}
+
+  /*services */
+  table {
+      margin-top: 40px;
+  }
+  .service-list img {
+        width: 80%;
+        height: 300px;
+   }
+
+   tr, td {
+       padding: 10px;
+   }
+
+   
