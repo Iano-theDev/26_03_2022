@@ -15,3 +15,11 @@ function myFunction() {
       }
     }
   }
+
+  function alert() {
+    document.getElementById("submitMe");
+  }
+
+  button.onclick = function(alert){
+    alert ("thank You!");
+  }
