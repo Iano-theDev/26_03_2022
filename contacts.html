@@ -29,6 +29,8 @@
             <input type="text" name="name" id="name">
             <label for="email">Email: </label>
             <input type="email" name="email" id="email" required>
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
             <label for="message">Message:</label>
             <textarea name="message" cols="30" Rows="10"></textarea>
             <input onclick="show_alert();" type="submit" value="send" id="submitMe">

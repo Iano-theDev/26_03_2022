@@ -61,9 +61,9 @@ h2 {
 }
 
 footer {
-    position: absolute;
-    width: 100%;
+    position: relative;
     background-color: rgba(0, 0, 0, 0.849);
+    width: 100%;
 }
 
 .foot {
